@@ -1,0 +1,127 @@
+1587673909a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:2522:"<!-- ======= Footer ======= -->
+<footer id="footer" class="section-bg">
+    <div class="footer-top">
+        <div class="container">
+
+
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="footer-links">
+                        <h4>Contacto</h4>
+                        <p>
+                            Matriz:<br>
+                             18 de Octubre 306 entre Córdova y 10 de Agosto<br>
+                            Portovíejo - Manabí - Ecuador.<br>
+                            <strong>Phone:</strong> (+593) 052-633032 <br>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="footer-links">
+                        <h4>accesos directo</h4>
+                        <ul>
+                            <li><a href="#"> Microcrédito &nbsp;<i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Crédito De Consumo &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Crédito De Vivienda &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Cuenta de Ahorros &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Creditransportistas &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="footer-links">
+                        <h4>nosotros</h4>
+
+                    <div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+ 
+
+
+    <div class="container">
+        <div class="copyright">
+            &copy; Derechos Reservados <strong>Cooperativa de Ahorro y Crédito 15 de Abril</strong>  2020
+        </div>
+        <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+          -->
+<!--            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+        </div>
+    </div>
+</footer><!-- End  Footer -->";s:5:"mtime";i:1586806994;s:6:"markup";s:2522:"<!-- ======= Footer ======= -->
+<footer id="footer" class="section-bg">
+    <div class="footer-top">
+        <div class="container">
+
+
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="footer-links">
+                        <h4>Contacto</h4>
+                        <p>
+                            Matriz:<br>
+                             18 de Octubre 306 entre Córdova y 10 de Agosto<br>
+                            Portovíejo - Manabí - Ecuador.<br>
+                            <strong>Phone:</strong> (+593) 052-633032 <br>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="footer-links">
+                        <h4>accesos directo</h4>
+                        <ul>
+                            <li><a href="#"> Microcrédito &nbsp;<i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Crédito De Consumo &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Crédito De Vivienda &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Cuenta de Ahorros &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                            <li><a href="#"> Creditransportistas &nbsp; <i class="fas fa-external-link-alt"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="footer-links">
+                        <h4>nosotros</h4>
+
+                    <div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+ 
+
+
+    <div class="container">
+        <div class="copyright">
+            &copy; Derechos Reservados <strong>Cooperativa de Ahorro y Crédito 15 de Abril</strong>  2020
+        </div>
+        <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+          -->
+<!--            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+        </div>
+    </div>
+</footer><!-- End  Footer -->";s:4:"code";N;}}

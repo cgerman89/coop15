@@ -1,0 +1,31 @@
+1587673921a:1:{s:27:"site/breadcrumb_section.htm";a:7:{s:8:"fileName";s:27:"site/breadcrumb_section.htm";s:7:"content";s:588:"[viewBag]
+
+[breadcrumbs]
+main-ol-class = "breadcrumb"
+main-li-class = "breadcrumb-item"
+active-class = "active"
+disabled-class = "disabled"
+==
+<div class="content-header mt-4 wow fadeInUp">
+    <div class="container ">
+        <div class="row mb-2">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-8">
+                <nav aria-label="breadcrumb" class="pull-right">
+                    {% component 'breadcrumbs' %}
+                </nav>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>";s:5:"mtime";i:1587670738;s:6:"markup";s:437:"<div class="content-header mt-4 wow fadeInUp">
+    <div class="container ">
+        <div class="row mb-2">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-8">
+                <nav aria-label="breadcrumb" class="pull-right">
+                    {% component 'breadcrumbs' %}
+                </nav>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}s:11:"breadcrumbs";a:4:{s:13:"main-ol-class";s:10:"breadcrumb";s:13:"main-li-class";s:15:"breadcrumb-item";s:12:"active-class";s:6:"active";s:14:"disabled-class";s:8:"disabled";}}}

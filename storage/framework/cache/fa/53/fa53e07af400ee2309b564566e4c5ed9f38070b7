@@ -1,0 +1,37 @@
+1587673921a:1:{s:22:"site/about_section.htm";a:5:{s:8:"fileName";s:22:"site/about_section.htm";s:7:"content";s:406:"<!-- ======= About Section ======= -->
+<div id="about" class="content  wow fadeInUp">
+
+    <div class="container">
+        <header class="section-header">
+            <h3>{{ this.page.title }}</h3>
+        </header>
+
+        <div class="row">
+
+           <div class="about-content">
+               {% page %}
+           </div>
+
+        </div>
+
+    </div>
+
+</div><!-- End About Section -->";s:5:"mtime";i:1587074924;s:6:"markup";s:406:"<!-- ======= About Section ======= -->
+<div id="about" class="content  wow fadeInUp">
+
+    <div class="container">
+        <header class="section-header">
+            <h3>{{ this.page.title }}</h3>
+        </header>
+
+        <div class="row">
+
+           <div class="about-content">
+               {% page %}
+           </div>
+
+        </div>
+
+    </div>
+
+</div><!-- End About Section -->";s:4:"code";N;}}
