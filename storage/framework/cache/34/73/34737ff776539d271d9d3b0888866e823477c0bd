@@ -1,9 +1,11 @@
-1587673909a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:158:"title = "Inicio"
+1588028207a:1:{s:8:"home.htm";a:15:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:195:"title = "Inicio"
 url = "/"
 layout = "home_layout"
 is_hidden = 0
+menu_text = "inicio"
+show_menu = 1
 child_of = "mey_no_parent"
 hide_crumb = 0
 remove_crumb_trail = 0
 crumb_disabled = 0
-==";s:5:"mtime";i:1587070998;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:6:"Inicio";s:3:"url";s:1:"/";s:6:"layout";s:11:"home_layout";s:9:"is_hidden";s:1:"0";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";}}
+==";s:5:"mtime";i:1588006749;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:6:"Inicio";s:3:"url";s:1:"/";s:6:"layout";s:11:"home_layout";s:9:"is_hidden";s:1:"0";s:9:"menu_text";s:6:"inicio";s:9:"show_menu";s:1:"1";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";}}

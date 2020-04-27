@@ -1,0 +1,11 @@
+<ol id="breadcrumbs" class="breadcrumb float-sm-right">
+    {% for link in breadcrumbs %}
+        {% if loop.last %}
+            <li class="breadcrumb-item text-capitalize">{{ link.title|raw }}</li>
+        {% else %}
+            <li class="breadcrumb-item text-capitalize active">
+                <a href="{{ link.url }}">{{ link.title|raw }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ol>

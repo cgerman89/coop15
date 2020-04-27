@@ -35,7 +35,7 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
         $macros = $this->macros;
         // line 1
         echo "<!-- ======= Header ======= -->
-<header id=\"header\" class=\"center-content d-table\">
+<header id=\"header\" class=\"\">
 
     <div id=\"topbar\">
         <div class=\"container\">
@@ -60,78 +60,14 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
         </div>
 
         <nav class=\"main-nav float-right d-none d-lg-block\">
-            <ul>
-                <li><a href=\"/\">Inicio</a></li>
-                <li class=\"drop-down\"><a href=\"#\">su cooperativa</a>
-                    <ul>
-                        <li class=\"drop-down\">
-                            <a href=\"#\">Institución</a>
-                            <ul>
-                                <li><a href=\"/historia\">Historia</a></li>
-                                <li><a href=\"/vision\">Visión</a></li>
-                                <li><a href=\"#\">Misión</a></li>
-                            </ul>
-                        </li>
-                        <li class=\"drop-down\">
-                            <a href=\"#\">Transparencia</a>
-                            <ul>
-                                <li><a href=\"#\">Costos financieros</a></li>
-                                <li><a href=\"#\">Costos de créditos</a></li>
-                                <li><a href=\"#\">Misión</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </li>
-                <li class=\"drop-down\"><a href=\"\">productos y servicios</a>
-                    <ul>
-                        <li><a href=\"#\">opcion 1</a></li>
-                        <li class=\"drop-down\"><a href=\"#\">ahorro</a>
-                            <ul>
-                                <li><a href=\"#\">cuenta de ahorro niño</a></li>
-                                <li><a href=\"#\">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href=\"#\">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class=\"drop-down\"><a href=\"\">informate</a>
-                    <ul>
-
-                        <li class=\"drop-down\"><a href=\"#\">promociones</a>
-                            <ul>
-                                <li><a href=\"#\"> gana ahorrando</a></li>
-                            </ul>
-                        </li>
-                        <li class=\"drop-down\"><a href=\"#\">noticias</a>
-                            <ul>
-                                <li><a href=\"#\"> noticias coop15deabril</a></li>
-                                <li><a href=\"#\"> ganadores de promocion</a></li>
-                            </ul>
-                        </li>
-                        <li><a href=\"#\">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class=\"drop-down\"><a href=\"\">agencias y cajeros</a>
-                    <ul>
-                        <li><a href=\"#\">opcion 1</a></li>
-                        <li class=\"drop-down\"><a href=\"#\">ahorro</a>
-                            <ul>
-                                <li><a href=\"#\">cuenta de ahorro niño</a></li>
-                                <li><a href=\"#\">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href=\"#\">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class=\"online drop-down\"><a href=\"#\">acceso virtual</a>
-                    <ul>
-                        <li><a href=\"#\">15 online</a></li>
-                        <li><a href=\"#\">factuarcion electronica </a></li>
-                    </ul>
-                </li>
-
-            </ul>
+           
+           ";
+        // line 25
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("staticMenu"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 26
+        echo "
         </nav><!-- .main-nav -->
 
     </div>
@@ -150,13 +86,13 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
 
     public function getDebugInfo()
     {
-        return array (  57 => 19,  37 => 1,);
+        return array (  70 => 26,  66 => 25,  57 => 19,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- ======= Header ======= -->
-<header id=\"header\" class=\"center-content d-table\">
+<header id=\"header\" class=\"\">
 
     <div id=\"topbar\">
         <div class=\"container\">
@@ -178,78 +114,9 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
         </div>
 
         <nav class=\"main-nav float-right d-none d-lg-block\">
-            <ul>
-                <li><a href=\"/\">Inicio</a></li>
-                <li class=\"drop-down\"><a href=\"#\">su cooperativa</a>
-                    <ul>
-                        <li class=\"drop-down\">
-                            <a href=\"#\">Institución</a>
-                            <ul>
-                                <li><a href=\"/historia\">Historia</a></li>
-                                <li><a href=\"/vision\">Visión</a></li>
-                                <li><a href=\"#\">Misión</a></li>
-                            </ul>
-                        </li>
-                        <li class=\"drop-down\">
-                            <a href=\"#\">Transparencia</a>
-                            <ul>
-                                <li><a href=\"#\">Costos financieros</a></li>
-                                <li><a href=\"#\">Costos de créditos</a></li>
-                                <li><a href=\"#\">Misión</a></li>
-                            </ul>
-                        </li>
+           
+           {% component 'staticMenu' %}
 
-                    </ul>
-                </li>
-                <li class=\"drop-down\"><a href=\"\">productos y servicios</a>
-                    <ul>
-                        <li><a href=\"#\">opcion 1</a></li>
-                        <li class=\"drop-down\"><a href=\"#\">ahorro</a>
-                            <ul>
-                                <li><a href=\"#\">cuenta de ahorro niño</a></li>
-                                <li><a href=\"#\">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href=\"#\">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class=\"drop-down\"><a href=\"\">informate</a>
-                    <ul>
-
-                        <li class=\"drop-down\"><a href=\"#\">promociones</a>
-                            <ul>
-                                <li><a href=\"#\"> gana ahorrando</a></li>
-                            </ul>
-                        </li>
-                        <li class=\"drop-down\"><a href=\"#\">noticias</a>
-                            <ul>
-                                <li><a href=\"#\"> noticias coop15deabril</a></li>
-                                <li><a href=\"#\"> ganadores de promocion</a></li>
-                            </ul>
-                        </li>
-                        <li><a href=\"#\">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class=\"drop-down\"><a href=\"\">agencias y cajeros</a>
-                    <ul>
-                        <li><a href=\"#\">opcion 1</a></li>
-                        <li class=\"drop-down\"><a href=\"#\">ahorro</a>
-                            <ul>
-                                <li><a href=\"#\">cuenta de ahorro niño</a></li>
-                                <li><a href=\"#\">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href=\"#\">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class=\"online drop-down\"><a href=\"#\">acceso virtual</a>
-                    <ul>
-                        <li><a href=\"#\">15 online</a></li>
-                        <li><a href=\"#\">factuarcion electronica </a></li>
-                    </ul>
-                </li>
-
-            </ul>
         </nav><!-- .main-nav -->
 
     </div>

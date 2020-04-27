@@ -1,0 +1,132 @@
+1588028207a:1:{s:11:"header.yaml";a:7:{s:8:"fileName";s:11:"header.yaml";s:7:"content";s:3859:"name: header
+items:
+    -
+        title: Inicio
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: home
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'su cooperativa'
+        nesting: ''
+        type: url
+        url: '#'
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: drop-down
+            isExternal: '0'
+        items:
+            -
+                title: institucion
+                nesting: ''
+                type: url
+                url: '#'
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: drop-down
+                    isExternal: '0'
+                items:
+                    -
+                        title: Historia
+                        nesting: ''
+                        type: cms-page
+                        url: ''
+                        code: ''
+                        reference: historia
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: Visión
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: vision
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: Mision
+                        nesting: '0'
+                        type: static-page
+                        url: ''
+                        code: ''
+                        reference: mision
+                        cmsPage: ''
+                        replace: '0'
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+            -
+                title: Transparencia
+                nesting: ''
+                type: url
+                url: '#'
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: drop-down
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'Costos financieros'
+                        type: url
+                        url: 'http://new15.test/storage/app/media/Costos%20de%20Creditos_20200205.pdf'
+                        code: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '1'
+            -
+                title: 'nuestros socios'
+                nesting: ''
+                type: url
+                url: '#'
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: 'productos y servicios'
+        nesting: ''
+        type: url
+        url: '#'
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+";s:5:"mtime";i:1588026109;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

@@ -1,4 +1,8 @@
-1587673921a:1:{s:20:"site/header_page.htm";a:5:{s:8:"fileName";s:20:"site/header_page.htm";s:7:"content";s:4452:"<!-- ======= Header ======= -->
+1588027131a:1:{s:20:"site/header_page.htm";a:7:{s:8:"fileName";s:20:"site/header_page.htm";s:7:"content";s:1125:"[staticMenu]
+code = "header"
+[viewBag]
+==
+<!-- ======= Header ======= -->
 <header id="header" class="shadow-sm bg-white d-table center-content">
     <div id="topbar">
         <div class="container">
@@ -16,86 +20,16 @@
             <a href="/">
                 <img src=" {{ 'assets/img/logo-small.png'|theme }} "  alt="" class="img-fluid">
             </a>
-<!--        <h1 class="text-light"><a href="/" class="scrollto"><span>Rapid</span></a></h1>-->
 
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block">
-            <ul>
-                <li><a href="/">Inicio</a></li>
-                <li class="drop-down"><a href="#">su cooperativa</a>
-                    <ul>
-                        <li class="drop-down">
-                            <a href="#">Institución</a>
-                            <ul>
-                                <li><a href="/historia">Historia</a></li>
-                                <li><a href="/vision">Visión</a></li>
-                                <li><a href="#">Misión</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down">
-                            <a href="#">Transparencia</a>
-                            <ul>
-                                <li><a href="#">Costos financieros</a></li>
-                                <li><a href="#">Costos de créditos</a></li>
-                                <li><a href="#">Misión</a></li>
-                            </ul>
-                        </li>
+             
+            {% component 'staticMenu' %}
 
-                    </ul>
-                </li>
-                <li class="drop-down"><a href="">productos y servicios</a>
-                    <ul>
-                        <li><a href="#">opcion 1</a></li>
-                        <li class="drop-down"><a href="#">ahorro</a>
-                            <ul>
-                                <li><a href="#">cuenta de ahorro niño</a></li>
-                                <li><a href="#">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class="drop-down"><a href="">informate</a>
-                    <ul>
-
-                        <li class="drop-down"><a href="#">promociones</a>
-                            <ul>
-                                <li><a href="#"> gana ahorrando</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down"><a href="#">noticias</a>
-                            <ul>
-                                <li><a href="#"> noticias coop15deabril</a></li>
-                                <li><a href="#"> ganadores de promocion</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class="drop-down"><a href="">agencias y cajeros</a>
-                    <ul>
-                        <li><a href="#">opcion 1</a></li>
-                        <li class="drop-down"><a href="#">ahorro</a>
-                            <ul>
-                                <li><a href="#">cuenta de ahorro niño</a></li>
-                                <li><a href="#">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class="online drop-down"><a href="#">acceso virtual</a>
-                    <ul>
-                        <li><a href="#">15 online</a></li>
-                        <li><a href="#">factuarcion electronica </a></li>
-                    </ul>
-                </li>
-
-            </ul>
         </nav><!-- .main-nav -->
     </div>
-</header><!-- #header -->";s:5:"mtime";i:1587161502;s:6:"markup";s:4452:"<!-- ======= Header ======= -->
+</header><!-- #header -->";s:5:"mtime";i:1588019386;s:6:"markup";s:1079:"<!-- ======= Header ======= -->
 <header id="header" class="shadow-sm bg-white d-table center-content">
     <div id="topbar">
         <div class="container">
@@ -113,83 +47,13 @@
             <a href="/">
                 <img src=" {{ 'assets/img/logo-small.png'|theme }} "  alt="" class="img-fluid">
             </a>
-<!--        <h1 class="text-light"><a href="/" class="scrollto"><span>Rapid</span></a></h1>-->
 
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block">
-            <ul>
-                <li><a href="/">Inicio</a></li>
-                <li class="drop-down"><a href="#">su cooperativa</a>
-                    <ul>
-                        <li class="drop-down">
-                            <a href="#">Institución</a>
-                            <ul>
-                                <li><a href="/historia">Historia</a></li>
-                                <li><a href="/vision">Visión</a></li>
-                                <li><a href="#">Misión</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down">
-                            <a href="#">Transparencia</a>
-                            <ul>
-                                <li><a href="#">Costos financieros</a></li>
-                                <li><a href="#">Costos de créditos</a></li>
-                                <li><a href="#">Misión</a></li>
-                            </ul>
-                        </li>
+             
+            {% component 'staticMenu' %}
 
-                    </ul>
-                </li>
-                <li class="drop-down"><a href="">productos y servicios</a>
-                    <ul>
-                        <li><a href="#">opcion 1</a></li>
-                        <li class="drop-down"><a href="#">ahorro</a>
-                            <ul>
-                                <li><a href="#">cuenta de ahorro niño</a></li>
-                                <li><a href="#">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class="drop-down"><a href="">informate</a>
-                    <ul>
-
-                        <li class="drop-down"><a href="#">promociones</a>
-                            <ul>
-                                <li><a href="#"> gana ahorrando</a></li>
-                            </ul>
-                        </li>
-                        <li class="drop-down"><a href="#">noticias</a>
-                            <ul>
-                                <li><a href="#"> noticias coop15deabril</a></li>
-                                <li><a href="#"> ganadores de promocion</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class="drop-down"><a href="">agencias y cajeros</a>
-                    <ul>
-                        <li><a href="#">opcion 1</a></li>
-                        <li class="drop-down"><a href="#">ahorro</a>
-                            <ul>
-                                <li><a href="#">cuenta de ahorro niño</a></li>
-                                <li><a href="#">subopcion 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">opcion 3</a></li>
-                    </ul>
-                </li>
-                <li class="online drop-down"><a href="#">acceso virtual</a>
-                    <ul>
-                        <li><a href="#">15 online</a></li>
-                        <li><a href="#">factuarcion electronica </a></li>
-                    </ul>
-                </li>
-
-            </ul>
         </nav><!-- .main-nav -->
     </div>
-</header><!-- #header -->";s:4:"code";N;}}
+</header><!-- #header -->";s:4:"code";N;s:10:"staticMenu";a:1:{s:4:"code";s:6:"header";}s:7:"viewBag";a:0:{}}}

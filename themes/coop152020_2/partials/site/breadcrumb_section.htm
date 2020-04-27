@@ -1,20 +1,22 @@
 [viewBag]
 
 [breadcrumbs]
-main-ol-class = "breadcrumb"
-main-li-class = "breadcrumb-item"
-active-class = "active"
-disabled-class = "disabled"
+code = "header"
 ==
 <div class="content-header mt-4 wow fadeInUp">
-    <div class="container ">
+    <div class=" container ">
+
         <div class="row mb-2">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-8">
-                <nav aria-label="breadcrumb" class="pull-right">
-                    {% component 'breadcrumbs' %}
-                </nav>
+            <div class="col-sm-6">
+                <h1 class="m-0 text-dark "> {{ this.page.title }} </h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+           
+               {% component 'breadcrumbs' %}
+                     
+                     
             </div><!-- /.col -->
         </div><!-- /.row -->
+
     </div><!-- /.container-fluid -->
 </div>

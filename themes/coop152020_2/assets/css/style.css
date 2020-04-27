@@ -265,8 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: "Open Sans", sans-serif;*/
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -304,7 +303,6 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
-  font-family: 'Source Sans Pro', sans-serif;
   text-transform: capitalize;
   font-weight: 400;
   color: #639a67;

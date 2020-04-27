@@ -38,21 +38,19 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
 <div id=\"about\" class=\"content  wow fadeInUp\">
 
     <div class=\"container\">
-        <header class=\"section-header\">
-            <h3>";
-        // line 6
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 6), "title", [], "any", false, false, false, 6), "html", null, true);
-        echo "</h3>
-        </header>
 
         <div class=\"row\">
 
            <div class=\"about-content\">
-               ";
-        // line 12
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 13
-        echo "           </div>
+                
+                ";
+        // line 10
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("staticPage"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 11
+        echo "                
+           </div>
 
         </div>
 
@@ -73,7 +71,7 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
 
     public function getDebugInfo()
     {
-        return array (  55 => 13,  53 => 12,  44 => 6,  37 => 1,);
+        return array (  52 => 11,  48 => 10,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -82,14 +80,13 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
 <div id=\"about\" class=\"content  wow fadeInUp\">
 
     <div class=\"container\">
-        <header class=\"section-header\">
-            <h3>{{ this.page.title }}</h3>
-        </header>
 
         <div class=\"row\">
 
            <div class=\"about-content\">
-               {% page %}
+                
+                {% component 'staticPage' %}
+                
            </div>
 
         </div>
