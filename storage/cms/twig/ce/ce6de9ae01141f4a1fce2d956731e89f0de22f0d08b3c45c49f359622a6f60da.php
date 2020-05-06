@@ -35,7 +35,7 @@ class __TwigTemplate_a7beb9d56e8d30faf294f6b0332a6af9cf9c0f205c68dac86fbf2c8ddd8
         $macros = $this->macros;
         // line 1
         echo "<!-- ======= About Section ======= -->
-<div class=\"d-table center-content wow fadeInUp\">
+<div class=\"d-table  center-content wow fadeInUp\">
 
     <img class=\"img-fluid shadow-sm\" src=\"";
         // line 4
@@ -67,7 +67,7 @@ About Section -->";
     public function getSourceContext()
     {
         return new Source("<!-- ======= About Section ======= -->
-<div class=\"d-table center-content wow fadeInUp\">
+<div class=\"d-table  center-content wow fadeInUp\">
 
     <img class=\"img-fluid shadow-sm\" src=\"{{ 'assets/img/background'|theme}}/{{ this.page.id }}.jpg\" alt=\"image\">
 

@@ -67,57 +67,56 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
         echo " \" rel=\"apple-touch-icon\">
 
     <!-- Google Fonts -->
-    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700\" rel=\"stylesheet\">
-
+    <link href=\"https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap\" rel=\"stylesheet\">
     <!-- Vendor CSS Files -->
     <link href=\" ";
-        // line 22
+        // line 21
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/bootstrap/css/bootstrap.min.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 23
+        // line 22
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/adminlte3/dist/css/adminlte.min.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 24
+        // line 23
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/animate.css/animate.min.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 25
+        // line 24
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/font-awesome/css/font-awesome.min.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 26
+        // line 25
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/fontawesome-free/css/all.min.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 27
+        // line 26
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/ionicons/css/ionicons.min.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 28
+        // line 27
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/venobox/venobox.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 29
+        // line 28
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/owl.carousel/assets/owl.carousel.min.css");
         echo " \" rel=\"stylesheet\">
 
     <!-- Template Main CSS File -->
     <link href=\" ";
-        // line 32
+        // line 31
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/revolution-slider.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 33
+        // line 32
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/slider-setting.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 34
+        // line 33
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/style.css");
         echo " \" rel=\"stylesheet\">
     <link href=\" ";
-        // line 35
+        // line 34
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/btn_slider.css");
         echo " \" rel=\"stylesheet\">
 
@@ -134,17 +133,18 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 <div  id=\"preloader\"></div>
 
 ";
-        // line 49
+        // line 48
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 50
+        // line 49
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/slider2"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 51
+        // line 50
         echo "
 <main id=\"main\">
+
     ";
         // line 53
         $context['__cms_partial_params'] = [];
@@ -246,7 +246,7 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 
     public function getDebugInfo()
     {
-        return array (  229 => 79,  225 => 78,  217 => 73,  213 => 72,  209 => 71,  205 => 70,  201 => 69,  197 => 68,  193 => 67,  189 => 66,  185 => 65,  181 => 64,  177 => 63,  173 => 62,  167 => 58,  163 => 57,  159 => 55,  154 => 54,  150 => 53,  146 => 51,  142 => 50,  138 => 49,  121 => 35,  117 => 34,  113 => 33,  109 => 32,  103 => 29,  99 => 28,  95 => 27,  91 => 26,  87 => 25,  83 => 24,  79 => 23,  75 => 22,  66 => 16,  62 => 15,  54 => 10,  50 => 9,  46 => 8,  37 => 1,);
+        return array (  229 => 79,  225 => 78,  217 => 73,  213 => 72,  209 => 71,  205 => 70,  201 => 69,  197 => 68,  193 => 67,  189 => 66,  185 => 65,  181 => 64,  177 => 63,  173 => 62,  167 => 58,  163 => 57,  159 => 55,  154 => 54,  150 => 53,  145 => 50,  141 => 49,  137 => 48,  120 => 34,  116 => 33,  112 => 32,  108 => 31,  102 => 28,  98 => 27,  94 => 26,  90 => 25,  86 => 24,  82 => 23,  78 => 22,  74 => 21,  66 => 16,  62 => 15,  54 => 10,  50 => 9,  46 => 8,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -269,8 +269,7 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
     <link href=\" {{ 'assets/img/apple-touch-icon.png'|theme }} \" rel=\"apple-touch-icon\">
 
     <!-- Google Fonts -->
-    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700\" rel=\"stylesheet\">
-
+    <link href=\"https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap\" rel=\"stylesheet\">
     <!-- Vendor CSS Files -->
     <link href=\" {{ 'assets/vendor/bootstrap/css/bootstrap.min.css'|theme }} \" rel=\"stylesheet\">
     <link href=\" {{ 'assets/vendor/adminlte3/dist/css/adminlte.min.css'|theme }} \" rel=\"stylesheet\">
@@ -303,6 +302,7 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 {% partial 'site/slider2' %}
 
 <main id=\"main\">
+
     {% partial 'site/services_card' %}
     {% partial 'site/features_section' %}
 </main><!-- End #main -->

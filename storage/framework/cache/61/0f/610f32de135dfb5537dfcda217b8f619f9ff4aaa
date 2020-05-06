@@ -1,9 +1,9 @@
-1588027130a:1:{s:27:"site/breadcrumb_section.htm";a:7:{s:8:"fileName";s:27:"site/breadcrumb_section.htm";s:7:"content";s:556:"[viewBag]
+1588717031a:1:{s:27:"site/breadcrumb_section.htm";a:7:{s:8:"fileName";s:27:"site/breadcrumb_section.htm";s:7:"content";s:552:"[viewBag]
 
 [breadcrumbs]
 code = "header"
 ==
-<div class="content-header mt-4 wow fadeInUp">
+<div class="content-header  wow fadeInUp">
     <div class=" container ">
 
         <div class="row mb-2">
@@ -19,7 +19,7 @@ code = "header"
         </div><!-- /.row -->
 
     </div><!-- /.container-fluid -->
-</div>";s:5:"mtime";i:1588023679;s:6:"markup";s:507:"<div class="content-header mt-4 wow fadeInUp">
+</div>";s:5:"mtime";i:1588194374;s:6:"markup";s:503:"<div class="content-header  wow fadeInUp">
     <div class=" container ">
 
         <div class="row mb-2">

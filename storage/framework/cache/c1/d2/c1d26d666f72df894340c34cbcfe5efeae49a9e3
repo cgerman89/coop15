@@ -1,59 +1,63 @@
-1588027131a:1:{s:20:"site/header_page.htm";a:7:{s:8:"fileName";s:20:"site/header_page.htm";s:7:"content";s:1125:"[staticMenu]
+1588717031a:1:{s:20:"site/header_page.htm";a:7:{s:8:"fileName";s:20:"site/header_page.htm";s:7:"content";s:1045:"[staticMenu]
 code = "header"
 [viewBag]
 ==
 <!-- ======= Header ======= -->
 <header id="header" class="shadow-sm bg-white d-table center-content">
-    <div id="topbar">
-        <div class="container">
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+
+                <div class="logo pull-left">
+                    <a href="/">
+                        <img src=" {{ 'assets/img/logo.png'|theme }} "  alt="" class="img-fluid">
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-10">
+                <div id="topbar">
+                    <div class="container">
+                        <div class="text-right">
+                            {% partial 'site/acceso_virtual' %}
+                        </div>
+                    </div>
+                </div>
+                <nav class="main-nav float-right d-none d-lg-block">
+
+                    {% component 'staticMenu' %}
+
+                </nav><!-- .main-nav -->
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="logo pull-left">
-            <a href="/">
-                <img src=" {{ 'assets/img/logo-small.png'|theme }} "  alt="" class="img-fluid">
-            </a>
-
-        </div>
-
-        <nav class="main-nav float-right d-none d-lg-block">
-             
-            {% component 'staticMenu' %}
-
-        </nav><!-- .main-nav -->
-    </div>
-</header><!-- #header -->";s:5:"mtime";i:1588019386;s:6:"markup";s:1079:"<!-- ======= Header ======= -->
+</header><!-- #header -->";s:5:"mtime";i:1588692350;s:6:"markup";s:999:"<!-- ======= Header ======= -->
 <header id="header" class="shadow-sm bg-white d-table center-content">
-    <div id="topbar">
-        <div class="container">
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+
+                <div class="logo pull-left">
+                    <a href="/">
+                        <img src=" {{ 'assets/img/logo.png'|theme }} "  alt="" class="img-fluid">
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-10">
+                <div id="topbar">
+                    <div class="container">
+                        <div class="text-right">
+                            {% partial 'site/acceso_virtual' %}
+                        </div>
+                    </div>
+                </div>
+                <nav class="main-nav float-right d-none d-lg-block">
+
+                    {% component 'staticMenu' %}
+
+                </nav><!-- .main-nav -->
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="logo pull-left">
-            <a href="/">
-                <img src=" {{ 'assets/img/logo-small.png'|theme }} "  alt="" class="img-fluid">
-            </a>
-
-        </div>
-
-        <nav class="main-nav float-right d-none d-lg-block">
-             
-            {% component 'staticMenu' %}
-
-        </nav><!-- .main-nav -->
     </div>
 </header><!-- #header -->";s:4:"code";N;s:10:"staticMenu";a:1:{s:4:"code";s:6:"header";}s:7:"viewBag";a:0:{}}}

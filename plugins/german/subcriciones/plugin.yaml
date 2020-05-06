@@ -1,0 +1,6 @@
+plugin:
+    name: 'german.subcriciones::lang.plugin.name'
+    description: 'german.subcriciones::lang.plugin.description'
+    author: German
+    icon: oc-icon-shield
+    homepage: ''

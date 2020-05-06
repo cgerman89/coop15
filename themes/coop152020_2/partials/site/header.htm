@@ -4,32 +4,32 @@ code = "header"
 [viewBag]
 ==
 <!-- ======= Header ======= -->
-<header id="header" class="">
+<header id="header" class=" d-table center-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
 
-    <div id="topbar">
-        <div class="container">
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <div class="logo pull-left">
+                        <a href="/">
+                            <img src=" {{ 'assets/img/logo.png'|theme }} "  alt="" class="img-fluid">
+                        </a>
+                    </div>
+
+            </div>
+            <div class="col-10">
+                    <div id="topbar">
+                        <div class="container">
+                           <div class="text-right">
+                               {% partial 'site/acceso_virtual' %}
+                           </div>
+                        </div>
+                    </div>
+                    <nav class="main-nav float-right d-none d-lg-block">
+
+                            {% component 'staticMenu' %}
+
+                    </nav><!-- .main-nav -->
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="logo pull-left">
-            <a href="/">
-                <img src=" {{ 'assets/img/logo-small.png'|theme }} "  alt="" class="img-fluid">
-            </a>
-        </div>
-
-        <nav class="main-nav float-right d-none d-lg-block">
-           
-           {% component 'staticMenu' %}
-
-        </nav><!-- .main-nav -->
-
     </div>
 </header><!-- #header -->

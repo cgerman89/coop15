@@ -1,18 +1,16 @@
-1588028207a:1:{s:25:"site/features_section.htm";a:5:{s:8:"fileName";s:25:"site/features_section.htm";s:7:"content";s:2345:"<!-- ======= Features Section ======= -->
-<section id="features" class="features">
+1588795341a:1:{s:25:"site/features_section.htm";a:5:{s:8:"fileName";s:25:"site/features_section.htm";s:7:"content";s:2076:"<!-- ======= Features Section ======= -->
+<section id="features" class="features text-justify">
     <div class="container">
         <div class="row feature-item">
             <div class="col-lg-6 wow fadeInUp">
-                <img src=" {{ 'assets/img/image-8.jpg'|theme }} " class="img-fluid" alt="">
+                <img src=" {{ 'assets/img/image-8.jpg'|theme }} " class="img-fluid rounded shadow-sm" alt="">
             </div>
             <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-                <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+                <h4>APOYAMOS TODAS TUS DECISIONES FINANCIERAS</h4>
                 <p>
-                    Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+                    Te ayudamos en todo lo que necesites en tu día a día, tanto tú, como tus sueños, tus anhelos, tu negocio y tu familia nos interesan, por eso siempre estamos en constante innovación en nuestros servicios.
                 </p>
-                <p>
-                    Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
-                </p>
+
             </div>
         </div>
 
@@ -37,21 +35,19 @@
         </div>
 
     </div>
-</section><!-- End Features Section -->";s:5:"mtime";i:1586885996;s:6:"markup";s:2345:"<!-- ======= Features Section ======= -->
-<section id="features" class="features">
+</section><!-- End Features Section -->";s:5:"mtime";i:1588623620;s:6:"markup";s:2076:"<!-- ======= Features Section ======= -->
+<section id="features" class="features text-justify">
     <div class="container">
         <div class="row feature-item">
             <div class="col-lg-6 wow fadeInUp">
-                <img src=" {{ 'assets/img/image-8.jpg'|theme }} " class="img-fluid" alt="">
+                <img src=" {{ 'assets/img/image-8.jpg'|theme }} " class="img-fluid rounded shadow-sm" alt="">
             </div>
             <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-                <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+                <h4>APOYAMOS TODAS TUS DECISIONES FINANCIERAS</h4>
                 <p>
-                    Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+                    Te ayudamos en todo lo que necesites en tu día a día, tanto tú, como tus sueños, tus anhelos, tu negocio y tu familia nos interesan, por eso siempre estamos en constante innovación en nuestros servicios.
                 </p>
-                <p>
-                    Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
-                </p>
+
             </div>
         </div>
 

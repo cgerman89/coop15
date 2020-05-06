@@ -1,4 +1,4 @@
-1588028207a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:2522:"<!-- ======= Footer ======= -->
+1588795341a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:3080:"<!-- ======= Footer ======= -->
 <footer id="footer" class="section-bg">
     <div class="footer-top">
         <div class="container">
@@ -34,8 +34,14 @@
 
                 <div class="col-sm-3">
                     <div class="footer-links">
-                        <h4>nosotros</h4>
-
+                        <h4>nuestras redes</h4>
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
                     <div>
                 </div>
             </div>
@@ -61,7 +67,7 @@
 <!--            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
         </div>
     </div>
-</footer><!-- End  Footer -->";s:5:"mtime";i:1586806994;s:6:"markup";s:2522:"<!-- ======= Footer ======= -->
+</footer><!-- End  Footer -->";s:5:"mtime";i:1588629156;s:6:"markup";s:3080:"<!-- ======= Footer ======= -->
 <footer id="footer" class="section-bg">
     <div class="footer-top">
         <div class="container">
@@ -97,8 +103,14 @@
 
                 <div class="col-sm-3">
                     <div class="footer-links">
-                        <h4>nosotros</h4>
-
+                        <h4>nuestras redes</h4>
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
                     <div>
                 </div>
             </div>

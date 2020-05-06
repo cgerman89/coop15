@@ -34,7 +34,7 @@ class __TwigTemplate_b5622ce0bdbd986926941d3ab2d1826fc89bbcd38efcc0cb728708f839b
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"content-header mt-4 wow fadeInUp\">
+        echo "<div class=\"content-header  wow fadeInUp\">
     <div class=\" container \">
 
         <div class=\"row mb-2\">
@@ -78,7 +78,7 @@ class __TwigTemplate_b5622ce0bdbd986926941d3ab2d1826fc89bbcd38efcc0cb728708f839b
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"content-header mt-4 wow fadeInUp\">
+        return new Source("<div class=\"content-header  wow fadeInUp\">
     <div class=\" container \">
 
         <div class=\"row mb-2\">

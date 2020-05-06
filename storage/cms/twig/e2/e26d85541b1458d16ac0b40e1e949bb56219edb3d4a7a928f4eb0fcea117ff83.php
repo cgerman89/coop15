@@ -41,13 +41,11 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
 
         <div class=\"row\">
 
-           <div class=\"about-content\">
-                
-                ";
+           <div class=\"about-content text-justify\">
+
+               ";
         // line 10
-        $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("staticPage"        , $context['__cms_component_params']        );
-        unset($context['__cms_component_params']);
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
         // line 11
         echo "                
            </div>
@@ -64,14 +62,9 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
         return "C:\\laragon\\www\\new15/themes/coop152020_2/partials/site/about_section.htm";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  52 => 11,  48 => 10,  37 => 1,);
+        return array (  50 => 11,  48 => 10,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -83,9 +76,9 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
 
         <div class=\"row\">
 
-           <div class=\"about-content\">
-                
-                {% component 'staticPage' %}
+           <div class=\"about-content text-justify\">
+
+               {% page %}
                 
            </div>
 

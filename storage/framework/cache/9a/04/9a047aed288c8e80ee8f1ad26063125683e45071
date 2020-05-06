@@ -1,4 +1,4 @@
-1588028207a:1:{s:11:"header.yaml";a:7:{s:8:"fileName";s:11:"header.yaml";s:7:"content";s:3859:"name: header
+1588795340a:1:{s:11:"header.yaml";a:7:{s:8:"fileName";s:11:"header.yaml";s:7:"content";s:5965:"name: header
 items:
     -
         title: Inicio
@@ -96,9 +96,13 @@ items:
                 items:
                     -
                         title: 'Costos financieros'
+                        nesting: ''
                         type: url
                         url: 'http://new15.test/storage/app/media/Costos%20de%20Creditos_20200205.pdf'
                         code: ''
+                        reference: ''
+                        cmsPage: ''
+                        replace: ''
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -127,6 +131,66 @@ items:
         replace: ''
         viewBag:
             isHidden: '0'
-            cssClass: ''
+            cssClass: drop-down
             isExternal: '0'
-";s:5:"mtime";i:1588026109;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}
+        items:
+            -
+                title: ahorro
+                nesting: ''
+                type: url
+                url: '#'
+                code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: drop-down
+                    isExternal: '0'
+                items:
+                    -
+                        title: 'Cuenta De Ahorro'
+                        nesting: ''
+                        type: cms-page
+                        url: ''
+                        code: ''
+                        reference: cuenta-de-ahorro
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -
+                        title: 'Cuenta Ahorro Niño'
+                        nesting: ''
+                        type: cms-page
+                        url: ''
+                        code: ''
+                        reference: cuenta-ahorro-nino
+                        cmsPage: ''
+                        replace: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+    -
+        title: 'Acceso virtual'
+        type: url
+        url: '#'
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: 'online drop-down'
+            isExternal: '0'
+        items:
+            -
+                title: '15 online'
+                type: url
+                url: 'https://wbanking.coop15abril.fin.ec/15onLine/inicio.jsf'
+                code: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: 'btn btn-link text-success'
+                    isExternal: '1'
+";s:5:"mtime";i:1588688094;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

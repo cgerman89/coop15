@@ -11,8 +11,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -172,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #header.header-scrolled, #header.header-pages {
-  height: 70px;
+  height: 95px;
   padding: 15px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
@@ -180,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled #topbar, #header.header-pages #topbar {
-  display: none;
+  /*display: none;*/
 }
 
 @media (max-width: 991px) {
@@ -223,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-page{
-  padding-top: 130px;
+  padding-top: 120px;
 }
 
 @media (max-width: 991px){
@@ -265,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -303,6 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
   font-weight: 400;
   color: #639a67;
@@ -459,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2b580c;
   text-align: center;
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
 }
 
@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2b580c;
   text-align: center;
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
 }
 
@@ -496,13 +496,15 @@ h1, h2, h3, h4, h5, h6 {
 /* About Us Section
 --------------------------------*/
 #about {
-  padding: 20px 0;
+  padding: 20px .5rem;
   font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 #about .about-content {
-  padding-top: 40px;
+  /*padding-top: 40px;*/
+  padding: 15px .5rem;
   margin-top: 20px;
 }
 
@@ -516,7 +518,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #7ac143;
   font-weight: 400;
   font-size: 22px;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 #about .about-content ul {
@@ -743,9 +745,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #features h4 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Muli', sans-serif;
+}
+
+#features p {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Portfolio Section
@@ -1030,7 +1038,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------*/
 #clients {
   padding: 30px 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 #clients img {
@@ -1506,3 +1514,22 @@ h1, h2, h3, h4, h5, h6 {
 .color-amarillo {
   color:  #ffd800;
 }
+
+.online {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .online {
+    display: block;
+  }
+}
+
+#acceso_virtual {
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+

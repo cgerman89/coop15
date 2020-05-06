@@ -35,30 +35,28 @@ class __TwigTemplate_183856f3af6130ed6a50ebd3b81f9b7a7e2b89a852ee4071a8b9262a50f
         $macros = $this->macros;
         // line 1
         echo "<!-- ======= Features Section ======= -->
-<section id=\"features\" class=\"features\">
+<section id=\"features\" class=\"features text-justify\">
     <div class=\"container\">
         <div class=\"row feature-item\">
             <div class=\"col-lg-6 wow fadeInUp\">
                 <img src=\" ";
         // line 6
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/image-8.jpg");
-        echo " \" class=\"img-fluid\" alt=\"\">
+        echo " \" class=\"img-fluid rounded shadow-sm\" alt=\"\">
             </div>
             <div class=\"col-lg-6 wow fadeInUp pt-5 pt-lg-0\">
-                <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+                <h4>APOYAMOS TODAS TUS DECISIONES FINANCIERAS</h4>
                 <p>
-                    Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+                    Te ayudamos en todo lo que necesites en tu día a día, tanto tú, como tus sueños, tus anhelos, tu negocio y tu familia nos interesan, por eso siempre estamos en constante innovación en nuestros servicios.
                 </p>
-                <p>
-                    Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
-                </p>
+
             </div>
         </div>
 
         <div class=\"row feature-item mt-5 pt-5\">
             <div class=\"col-lg-6 wow fadeInUp order-1 order-lg-2\">
                 <img src=\" ";
-        // line 21
+        // line 19
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/features-2.svg");
         echo " \" class=\"img-fluid\" alt=\"\">
             </div>
@@ -94,26 +92,24 @@ class __TwigTemplate_183856f3af6130ed6a50ebd3b81f9b7a7e2b89a852ee4071a8b9262a50f
 
     public function getDebugInfo()
     {
-        return array (  62 => 21,  44 => 6,  37 => 1,);
+        return array (  60 => 19,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- ======= Features Section ======= -->
-<section id=\"features\" class=\"features\">
+<section id=\"features\" class=\"features text-justify\">
     <div class=\"container\">
         <div class=\"row feature-item\">
             <div class=\"col-lg-6 wow fadeInUp\">
-                <img src=\" {{ 'assets/img/image-8.jpg'|theme }} \" class=\"img-fluid\" alt=\"\">
+                <img src=\" {{ 'assets/img/image-8.jpg'|theme }} \" class=\"img-fluid rounded shadow-sm\" alt=\"\">
             </div>
             <div class=\"col-lg-6 wow fadeInUp pt-5 pt-lg-0\">
-                <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+                <h4>APOYAMOS TODAS TUS DECISIONES FINANCIERAS</h4>
                 <p>
-                    Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+                    Te ayudamos en todo lo que necesites en tu día a día, tanto tú, como tus sueños, tus anhelos, tu negocio y tu familia nos interesan, por eso siempre estamos en constante innovación en nuestros servicios.
                 </p>
-                <p>
-                    Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
-                </p>
+
             </div>
         </div>
 

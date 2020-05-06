@@ -35,41 +35,46 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
         $macros = $this->macros;
         // line 1
         echo "<!-- ======= Header ======= -->
-<header id=\"header\" class=\"\">
-
-    <div id=\"topbar\">
-        <div class=\"container\">
-            <div class=\"social-links\">
-                <a href=\"#\" class=\"twitter\"><i class=\"fab fa-twitter\"></i></a>
-                <a href=\"#\" class=\"facebook\"><i class=\"fab fa-facebook\"></i></a>
-                <a href=\"#\" class=\"linkedin\"><i class=\"fab fa-linkedin\"></i></a>
-                <a href=\"#\" class=\"instagram\"><i class=\"fab fa-youtube\"></i></a>
-                <a href=\"#\" class=\"instagram\"><i class=\"fab fa-instagram\"></i></a>
-            </div>
-        </div>
-    </div>
-
+<header id=\"header\" class=\" d-table center-content\">
     <div class=\"container\">
-        <div class=\"logo pull-left\">
-            <a href=\"/\">
-                <img src=\" ";
-        // line 19
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/logo-small.png");
-        echo " \"  alt=\"\" class=\"img-fluid\">
-            </a>
-        </div>
+        <div class=\"row\">
+            <div class=\"col-2\">
 
-        <nav class=\"main-nav float-right d-none d-lg-block\">
-           
-           ";
-        // line 25
+                    <div class=\"logo pull-left\">
+                        <a href=\"/\">
+                            <img src=\" ";
+        // line 9
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/logo.png");
+        echo " \"  alt=\"\" class=\"img-fluid\">
+                        </a>
+                    </div>
+
+            </div>
+            <div class=\"col-10\">
+                    <div id=\"topbar\">
+                        <div class=\"container\">
+                           <div class=\"text-right\">
+                               ";
+        // line 18
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/acceso_virtual"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 19
+        echo "                           </div>
+                        </div>
+                    </div>
+                    <nav class=\"main-nav float-right d-none d-lg-block\">
+
+                            ";
+        // line 24
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("staticMenu"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 26
+        // line 25
         echo "
-        </nav><!-- .main-nav -->
-
+                    </nav><!-- .main-nav -->
+            </div>
+        </div>
     </div>
 </header><!-- #header -->";
     }
@@ -86,39 +91,39 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
 
     public function getDebugInfo()
     {
-        return array (  70 => 26,  66 => 25,  57 => 19,  37 => 1,);
+        return array (  74 => 25,  70 => 24,  63 => 19,  59 => 18,  47 => 9,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!-- ======= Header ======= -->
-<header id=\"header\" class=\"\">
+<header id=\"header\" class=\" d-table center-content\">
+    <div class=\"container\">
+        <div class=\"row\">
+            <div class=\"col-2\">
 
-    <div id=\"topbar\">
-        <div class=\"container\">
-            <div class=\"social-links\">
-                <a href=\"#\" class=\"twitter\"><i class=\"fab fa-twitter\"></i></a>
-                <a href=\"#\" class=\"facebook\"><i class=\"fab fa-facebook\"></i></a>
-                <a href=\"#\" class=\"linkedin\"><i class=\"fab fa-linkedin\"></i></a>
-                <a href=\"#\" class=\"instagram\"><i class=\"fab fa-youtube\"></i></a>
-                <a href=\"#\" class=\"instagram\"><i class=\"fab fa-instagram\"></i></a>
+                    <div class=\"logo pull-left\">
+                        <a href=\"/\">
+                            <img src=\" {{ 'assets/img/logo.png'|theme }} \"  alt=\"\" class=\"img-fluid\">
+                        </a>
+                    </div>
+
+            </div>
+            <div class=\"col-10\">
+                    <div id=\"topbar\">
+                        <div class=\"container\">
+                           <div class=\"text-right\">
+                               {% partial 'site/acceso_virtual' %}
+                           </div>
+                        </div>
+                    </div>
+                    <nav class=\"main-nav float-right d-none d-lg-block\">
+
+                            {% component 'staticMenu' %}
+
+                    </nav><!-- .main-nav -->
             </div>
         </div>
-    </div>
-
-    <div class=\"container\">
-        <div class=\"logo pull-left\">
-            <a href=\"/\">
-                <img src=\" {{ 'assets/img/logo-small.png'|theme }} \"  alt=\"\" class=\"img-fluid\">
-            </a>
-        </div>
-
-        <nav class=\"main-nav float-right d-none d-lg-block\">
-           
-           {% component 'staticMenu' %}
-
-        </nav><!-- .main-nav -->
-
     </div>
 </header><!-- #header -->", "C:\\laragon\\www\\new15/themes/coop152020_2/partials/site/header.htm", "");
     }

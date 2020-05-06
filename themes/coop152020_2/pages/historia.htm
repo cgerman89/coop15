@@ -1,17 +1,31 @@
 title = "Historia"
 url = "/historia"
-layout = "page_layout"
+layout = "static_page_layout"
 is_hidden = 0
-show_menu = 0
-child_of = "home"
-hide_crumb = 0
-remove_crumb_trail = 0
-crumb_disabled = 0
 ==
-<h2 style="text-align:center">Rese&ntilde;a</h2>
 
+function onStart()
+{
+    $this['anios'] = $this->getYears();
+}
+
+function getYears()
+{
+
+	$fecha1 = explode("-","1964-04-15"); // fecha nacimiento
+	$fecha2 = explode("-",date("Y-m-d")); // fecha actual
+
+	$Edad = $fecha2[0]-$fecha1[0];
+	if($fecha2[1] < $fecha1[1])
+	  $Edad = $Edad - 1;
+	else if($fecha2[1] == $fecha1[1] and $fecha2[2] < $fecha1[2])
+	  $Edad = $Edad - 1;
+	return $Edad;
+
+}
+
+==
+<h2>Rese&ntilde;a</h2>
 <p>La idea de crear la Cooperativa de Ahorro y Cr&eacute;dito 15 de Abril surge cuando en la anterior crisis econ&oacute;mica, en 1964, 20 j&oacute;venes portovejenses decidieron abrir una cuenta de ahorros en el Banco Nacional de Fomento con 4.500 sucres, fue con el sue&ntilde;o de abrir una Cooperativa de Ahorros.</p>
-
 <p>En honor al d&iacute;a en que depositaron su dinero, decidieron que la mencionada Cooperativa deb&iacute;a llevar ese nombre y desde ese momento trabajaron fuerte para lograr la confianza de los ciudadanos; con el pasar del tiempo, esos j&oacute;venes ve&iacute;an como su proyecto empezaba a tomar cuerpo.</p>
-
-<p>La Cooperativa de Ahorro y Cr&eacute;dito 15 de Abril, durante sus 56 a&ntilde;os de trayectoria ha brindado atenci&oacute;n y servicio &aacute;gil y oportuno a todos sus socios y clientes que han visto en esta instituci&oacute;n un referente de prestigio, solidez, y sobre todo seguridad y confianza, lo que nos ha fortalecido y encaminado hacia el &eacute;xito obtenido, convirti&eacute;ndonos en una de las cooperativas m&aacute;s grandes de Manab&iacute;.</p>
+<p>La Cooperativa de Ahorro y Cr&eacute;dito 15 de Abril, durante sus {{ anios }} a&ntilde;os de trayectoria ha brindado atenci&oacute;n y servicio &aacute;gil y oportuno a todos sus socios y clientes que han visto en esta instituci&oacute;n un referente de prestigio, solidez, y sobre todo seguridad y confianza, lo que nos ha fortalecido y encaminado hacia el &eacute;xito obtenido, convirti&eacute;ndonos en una de las cooperativas m&aacute;s grandes de Manab&iacute;.</p>

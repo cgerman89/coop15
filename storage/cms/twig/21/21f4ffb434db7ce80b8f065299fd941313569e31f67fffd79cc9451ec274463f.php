@@ -70,8 +70,14 @@ class __TwigTemplate_e00ad1dd8c1fbe6224dcdff26a514af6317986780b40b94f8d537c13fd0
 
                 <div class=\"col-sm-3\">
                     <div class=\"footer-links\">
-                        <h4>nosotros</h4>
-
+                        <h4>nuestras redes</h4>
+                        <div class=\"social-links\">
+                            <a href=\"#\" class=\"twitter\"><i class=\"fab fa-twitter\"></i></a>
+                            <a href=\"#\" class=\"facebook\"><i class=\"fab fa-facebook\"></i></a>
+                            <a href=\"#\" class=\"linkedin\"><i class=\"fab fa-linkedin\"></i></a>
+                            <a href=\"#\" class=\"instagram\"><i class=\"fab fa-youtube\"></i></a>
+                            <a href=\"#\" class=\"instagram\"><i class=\"fab fa-instagram\"></i></a>
+                        </div>
                     <div>
                 </div>
             </div>
@@ -148,8 +154,14 @@ class __TwigTemplate_e00ad1dd8c1fbe6224dcdff26a514af6317986780b40b94f8d537c13fd0
 
                 <div class=\"col-sm-3\">
                     <div class=\"footer-links\">
-                        <h4>nosotros</h4>
-
+                        <h4>nuestras redes</h4>
+                        <div class=\"social-links\">
+                            <a href=\"#\" class=\"twitter\"><i class=\"fab fa-twitter\"></i></a>
+                            <a href=\"#\" class=\"facebook\"><i class=\"fab fa-facebook\"></i></a>
+                            <a href=\"#\" class=\"linkedin\"><i class=\"fab fa-linkedin\"></i></a>
+                            <a href=\"#\" class=\"instagram\"><i class=\"fab fa-youtube\"></i></a>
+                            <a href=\"#\" class=\"instagram\"><i class=\"fab fa-instagram\"></i></a>
+                        </div>
                     <div>
                 </div>
             </div>
