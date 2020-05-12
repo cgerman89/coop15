@@ -1,4 +1,4 @@
-1588717031a:1:{s:24:"site/content_section.htm";a:5:{s:8:"fileName";s:24:"site/content_section.htm";s:7:"content";s:246:"<!-- ======= About Section ======= -->
+1589227416a:1:{s:24:"site/content_section.htm";a:5:{s:8:"fileName";s:24:"site/content_section.htm";s:7:"content";s:246:"<!-- ======= About Section ======= -->
 <div class="d-table  center-content wow fadeInUp">
 
     <img class="img-fluid shadow-sm" src="{{ 'assets/img/background'|theme}}/{{ this.page.id }}.jpg" alt="image">
