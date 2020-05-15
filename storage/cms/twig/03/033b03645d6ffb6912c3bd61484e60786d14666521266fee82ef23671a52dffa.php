@@ -130,7 +130,7 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 </head>
 
 <body>
-<div  id=\"preloader\"></div>
+<div  id=\"preloader\" class=\"bg-light\"></div>
 
 ";
         // line 48
@@ -156,64 +156,69 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/features_section"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 55
+        echo "    ";
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/call_section"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 56
         echo "</main><!-- End #main -->
 
 ";
-        // line 57
+        // line 58
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 58
+        // line 59
         echo "
 <a href=\"#\" class=\"back-to-top\"><i class=\"fa fa-chevron-up\"></i></a>
 
 <!-- Vendor JS Files -->
 <script src=\" ";
-        // line 62
+        // line 63
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/jquery/jquery.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 63
+        // line 64
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/bootstrap/js/bootstrap.bundle.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 64
+        // line 65
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/adminlte3/dist/js/adminlte.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 65
+        // line 66
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/jquery.easing/jquery.easing.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 66
+        // line 67
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/php-email-form/validate.js");
         echo " \"></script>
 <script src=\" ";
-        // line 67
+        // line 68
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/isotope-layout/isotope.pkgd.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 68
+        // line 69
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/counterup/counterup.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 69
+        // line 70
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/venobox/venobox.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 70
+        // line 71
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/mobile-nav/mobile-nav.js");
         echo " \"></script>
 <script src=\" ";
-        // line 71
+        // line 72
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/wow/wow.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 72
+        // line 73
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/owl.carousel/owl.carousel.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 73
+        // line 74
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/waypoints/jquery.waypoints.min.js");
         echo " \"></script>
 
@@ -221,11 +226,11 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 
 <!-- Template Main JS File -->
 <script src=\" ";
-        // line 78
+        // line 79
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/revolution.min.js");
         echo " \"></script>
 <script src=\" ";
-        // line 79
+        // line 80
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo " \"></script>
 
@@ -246,7 +251,7 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 
     public function getDebugInfo()
     {
-        return array (  229 => 79,  225 => 78,  217 => 73,  213 => 72,  209 => 71,  205 => 70,  201 => 69,  197 => 68,  193 => 67,  189 => 66,  185 => 65,  181 => 64,  177 => 63,  173 => 62,  167 => 58,  163 => 57,  159 => 55,  154 => 54,  150 => 53,  145 => 50,  141 => 49,  137 => 48,  120 => 34,  116 => 33,  112 => 32,  108 => 31,  102 => 28,  98 => 27,  94 => 26,  90 => 25,  86 => 24,  82 => 23,  78 => 22,  74 => 21,  66 => 16,  62 => 15,  54 => 10,  50 => 9,  46 => 8,  37 => 1,);
+        return array (  234 => 80,  230 => 79,  222 => 74,  218 => 73,  214 => 72,  210 => 71,  206 => 70,  202 => 69,  198 => 68,  194 => 67,  190 => 66,  186 => 65,  182 => 64,  178 => 63,  172 => 59,  168 => 58,  164 => 56,  159 => 55,  154 => 54,  150 => 53,  145 => 50,  141 => 49,  137 => 48,  120 => 34,  116 => 33,  112 => 32,  108 => 31,  102 => 28,  98 => 27,  94 => 26,  90 => 25,  86 => 24,  82 => 23,  78 => 22,  74 => 21,  66 => 16,  62 => 15,  54 => 10,  50 => 9,  46 => 8,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -296,7 +301,7 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 </head>
 
 <body>
-<div  id=\"preloader\"></div>
+<div  id=\"preloader\" class=\"bg-light\"></div>
 
 {% partial 'site/header' %}
 {% partial 'site/slider2' %}
@@ -305,6 +310,7 @@ class __TwigTemplate_8d5e961c353fa274ee9ebca2bb8893afec6bdcf450bca5352797351e776
 
     {% partial 'site/services_card' %}
     {% partial 'site/features_section' %}
+    {% partial 'site/call_section' %}
 </main><!-- End #main -->
 
 {% partial 'site/footer' %}

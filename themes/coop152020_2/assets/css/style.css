@@ -498,7 +498,8 @@ h1, h2, h3, h4, h5, h6 {
 #about {
   padding: 20px .5rem;
   font-size: 15px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 
 }
 
@@ -510,8 +511,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #about .about-content h2 {
   color:  #2b580c;
-  font-family: 'Source Sans Pro', sans-serif;
-  /*font-weight: 700;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 #about .about-content h3 {
@@ -696,7 +697,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #2d2b46;
+  background: #279b37;
   background-size: cover;
   padding: 40px 0;
 }
@@ -720,7 +721,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #call-to-action .cta-btn {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -734,8 +735,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  /*background: #2b580c;*/
+  border: 3px solid #2b580c;
 }
 
 /* Features Section
@@ -747,13 +748,13 @@ h1, h2, h3, h4, h5, h6 {
 #features h4 {
   font-weight: 400;
   font-size: 24px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #features p {
-  font-weight: 300;
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Portfolio Section
@@ -1504,7 +1505,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .color-verde-fuerte {
-  color: #2b580c;;
+  color: #2b580c;
 }
 
 .color-verde {

@@ -1,4 +1,4 @@
-1589314038a:1:{s:15:"home_layout.htm";a:5:{s:8:"fileName";s:15:"home_layout.htm";s:7:"content";s:4240:"<!DOCTYPE html>
+1589580098a:1:{s:15:"home_layout.htm";a:5:{s:8:"fileName";s:15:"home_layout.htm";s:7:"content";s:4296:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -43,7 +43,7 @@
 </head>
 
 <body>
-<div  id="preloader"></div>
+<div  id="preloader" class="bg-light"></div>
 
 {% partial 'site/header' %}
 {% partial 'site/slider2' %}
@@ -52,6 +52,7 @@
 
     {% partial 'site/services_card' %}
     {% partial 'site/features_section' %}
+    {% partial 'site/call_section' %}
 </main><!-- End #main -->
 
 {% partial 'site/footer' %}
@@ -80,7 +81,7 @@
 
 </body>
 
-</html>";s:5:"mtime";i:1588627563;s:6:"markup";s:4240:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1589579361;s:6:"markup";s:4296:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -125,7 +126,7 @@
 </head>
 
 <body>
-<div  id="preloader"></div>
+<div  id="preloader" class="bg-light"></div>
 
 {% partial 'site/header' %}
 {% partial 'site/slider2' %}
@@ -134,6 +135,7 @@
 
     {% partial 'site/services_card' %}
     {% partial 'site/features_section' %}
+    {% partial 'site/call_section' %}
 </main><!-- End #main -->
 
 {% partial 'site/footer' %}
