@@ -135,50 +135,23 @@ items:
             isExternal: '0'
         items:
             -
-                title: ahorro
-                nesting: ''
-                type: url
-                url: '#'
+                title: Cuentas
+                type: cms-page
                 code: ''
-                reference: ''
-                cmsPage: ''
-                replace: ''
+                reference: cuenta-de-ahorro
                 viewBag:
                     isHidden: '0'
-                    cssClass: drop-down
+                    cssClass: ''
                     isExternal: '0'
-                items:
-                    -
-                        title: 'Cuenta De Ahorro'
-                        nesting: ''
-                        type: cms-page
-                        url: ''
-                        code: ''
-                        reference: cuenta-de-ahorro
-                        cmsPage: ''
-                        replace: ''
-                        viewBag:
-                            isHidden: '0'
-                            cssClass: ''
-                            isExternal: '0'
-                    -
-                        title: 'Cuenta Ahorro Niño'
-                        nesting: ''
-                        type: cms-page
-                        url: ''
-                        code: ''
-                        reference: cuenta-ahorro-nino
-                        cmsPage: ''
-                        replace: ''
-                        viewBag:
-                            isHidden: '0'
-                            cssClass: ''
-                            isExternal: '0'
     -
         title: 'Acceso virtual'
+        nesting: ''
         type: url
         url: '#'
         code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
         viewBag:
             isHidden: '0'
             cssClass: 'online drop-down'
@@ -186,9 +159,13 @@ items:
         items:
             -
                 title: '15 online'
+                nesting: ''
                 type: url
                 url: 'https://wbanking.coop15abril.fin.ec/15onLine/inicio.jsf'
                 code: ''
+                reference: ''
+                cmsPage: ''
+                replace: ''
                 viewBag:
                     isHidden: '0'
                     cssClass: 'btn btn-link text-success'

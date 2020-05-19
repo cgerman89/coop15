@@ -38,19 +38,19 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
 <div id=\"about\" class=\"content  wow fadeInUp\">
 
     <div class=\"container\">
+        <header class=\"section-header\">
+            <h3>";
+        // line 6
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 6), "title", [], "any", false, false, false, 6), "html", null, true);
+        echo "</h3>
+        </header>
 
-        <div class=\"row\">
-
-           <div class=\"about-content text-justify\">
-
-               ";
-        // line 10
+        ";
+        // line 9
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 11
-        echo "                
-           </div>
-
-        </div>
+        // line 10
+        echo "
+    </div>
 
     </div>
 
@@ -62,9 +62,14 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
         return "C:\\laragon\\www\\new15/themes/coop152020_2/partials/site/about_section.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  50 => 11,  48 => 10,  37 => 1,);
+        return array (  52 => 10,  50 => 9,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -73,16 +78,13 @@ class __TwigTemplate_b47d119a113999dd0e55d70abc6e200e2c6e94a06f35e0cbff66853e222
 <div id=\"about\" class=\"content  wow fadeInUp\">
 
     <div class=\"container\">
+        <header class=\"section-header\">
+            <h3>{{ this.page.title }}</h3>
+        </header>
 
-        <div class=\"row\">
+        {% page %}
 
-           <div class=\"about-content text-justify\">
-
-               {% page %}
-                
-           </div>
-
-        </div>
+    </div>
 
     </div>
 

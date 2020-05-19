@@ -44,7 +44,7 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
                         <a href=\"/\">
                             <img src=\" ";
         // line 9
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/logo.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/img/logo_fondo_bl-01-01-2.png");
         echo " \"  alt=\"\" class=\"img-fluid\">
                         </a>
                     </div>
@@ -104,7 +104,7 @@ class __TwigTemplate_665448631421bc618c00fe53724e9831ae91094f734585c09f6b3f04733
 
                     <div class=\"logo pull-left\">
                         <a href=\"/\">
-                            <img src=\" {{ 'assets/img/logo.png'|theme }} \"  alt=\"\" class=\"img-fluid\">
+                            <img src=\" {{ 'assets/img/logo_fondo_bl-01-01-2.png'|theme }} \"  alt=\"\" class=\"img-fluid\">
                         </a>
                     </div>
 

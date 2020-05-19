@@ -39,10 +39,10 @@ class __TwigTemplate_b5622ce0bdbd986926941d3ab2d1826fc89bbcd38efcc0cb728708f839b
 
         <div class=\"row mb-2\">
             <div class=\"col-sm-6\">
-                <h1 class=\"m-0 text-dark \"> ";
+<!--                <h1 class=\"m-0 text-dark \"> ";
         // line 6
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 6), "title", [], "any", false, false, false, 6), "html", null, true);
-        echo " </h1>
+        echo " </h1>-->
             </div><!-- /.col -->
             <div class=\"col-sm-6\">
            
@@ -83,7 +83,7 @@ class __TwigTemplate_b5622ce0bdbd986926941d3ab2d1826fc89bbcd38efcc0cb728708f839b
 
         <div class=\"row mb-2\">
             <div class=\"col-sm-6\">
-                <h1 class=\"m-0 text-dark \"> {{ this.page.title }} </h1>
+<!--                <h1 class=\"m-0 text-dark \"> {{ this.page.title }} </h1>-->
             </div><!-- /.col -->
             <div class=\"col-sm-6\">
            

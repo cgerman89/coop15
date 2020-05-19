@@ -1,4 +1,4 @@
-1589580173a:1:{s:15:"site/header.htm";a:7:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1090:"[staticMenu]
+1589901247a:1:{s:15:"site/header.htm";a:7:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1107:"[staticMenu]
 code = "header"
 
 [viewBag]
@@ -11,7 +11,7 @@ code = "header"
 
                     <div class="logo pull-left">
                         <a href="/">
-                            <img src=" {{ 'assets/img/logo.png'|theme }} "  alt="" class="img-fluid">
+                            <img src=" {{ 'assets/img/logo_fondo_bl-01-01-2.png'|theme }} "  alt="" class="img-fluid">
                         </a>
                     </div>
 
@@ -32,7 +32,7 @@ code = "header"
             </div>
         </div>
     </div>
-</header><!-- #header -->";s:5:"mtime";i:1588692351;s:6:"markup";s:1042:"<!-- ======= Header ======= -->
+</header><!-- #header -->";s:5:"mtime";i:1589832663;s:6:"markup";s:1059:"<!-- ======= Header ======= -->
 <header id="header" class=" d-table center-content">
     <div class="container">
         <div class="row">
@@ -40,7 +40,7 @@ code = "header"
 
                     <div class="logo pull-left">
                         <a href="/">
-                            <img src=" {{ 'assets/img/logo.png'|theme }} "  alt="" class="img-fluid">
+                            <img src=" {{ 'assets/img/logo_fondo_bl-01-01-2.png'|theme }} "  alt="" class="img-fluid">
                         </a>
                     </div>
 

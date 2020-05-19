@@ -1,35 +1,29 @@
-1589576856a:1:{s:22:"site/about_section.htm";a:5:{s:8:"fileName";s:22:"site/about_section.htm";s:7:"content";s:337:"
+1589901308a:1:{s:22:"site/about_section.htm";a:5:{s:8:"fileName";s:22:"site/about_section.htm";s:7:"content";s:309:"
 <!-- ======= About Section ======= -->
 <div id="about" class="content  wow fadeInUp">
 
     <div class="container">
+        <header class="section-header">
+            <h3>{{ this.page.title }}</h3>
+        </header>
 
-        <div class="row">
-
-           <div class="about-content text-justify">
-
-               {% page %}
-                
-           </div>
-
-        </div>
+        {% page %}
 
     </div>
 
-</div><!-- End About Section -->";s:5:"mtime";i:1588195762;s:6:"markup";s:335:"<!-- ======= About Section ======= -->
+    </div>
+
+</div><!-- End About Section -->";s:5:"mtime";i:1589838763;s:6:"markup";s:307:"<!-- ======= About Section ======= -->
 <div id="about" class="content  wow fadeInUp">
 
     <div class="container">
+        <header class="section-header">
+            <h3>{{ this.page.title }}</h3>
+        </header>
 
-        <div class="row">
+        {% page %}
 
-           <div class="about-content text-justify">
-
-               {% page %}
-                
-           </div>
-
-        </div>
+    </div>
 
     </div>
 
